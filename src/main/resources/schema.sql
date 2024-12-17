@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS ARTIST;
+ 
+CREATE TABLE ARTIST (
+  artist_id INT AUTO_INCREMENT  PRIMARY KEY,
+  artist_first_name VARCHAR(250) NOT NULL,
+  artist_last_name VARCHAR(250) NOT NULL
+);
